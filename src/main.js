@@ -12,3 +12,4 @@ const app = createApp(App);
 app.use(router);
 app.use(CanvasJSChart); // install the CanvasJS Vuejs Chart Plugin
 app.mount('#app');
+router.push({ name: 'Dashboard A' });
